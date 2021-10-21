@@ -1,5 +1,7 @@
-quantum-deep-dreaming
+DigiCircs
 =====================
+
+Representing your quantum circuits with machine-friendly character and digital strings with DigiCircs.
 
 Authors
 -------
@@ -11,17 +13,12 @@ Abhinav Anand <abhinav.anand@mail.utoronto.ca>
 Pre-requests
 ------------
 
-1. Tequila
+###Tequila
 For quantum simulations.
 ```bash
 git clone https://github.com/aspuru-guzik-group/tequila.git
 cd tequila
 pip install -e .
-```
-2. PyTorch
-For neural network training. Install with ``pip``:
-```bash
-pip install torch
 ```
 
 Installation
@@ -30,7 +27,7 @@ Installation
 ```bash
 pip install -e .
 ```
-
+Test if the installation succeeds:
 ```python
-from qdd import gen_circuit
+from digicircs import gen_circuit
 ```
